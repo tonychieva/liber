@@ -7,7 +7,7 @@
 
 ## Installation
 ```bash
-go get -u github.com/javiorfo/go-liber@latest
+go get -u github.com/javiorfo/liber@latest
 ```
 
 ## Example
@@ -19,12 +19,12 @@ import (
   "log"
   "os"
 
-  "github.com/javiorfo/go-liber"
-  "github.com/javiorfo/go-liber/body"
-  "github.com/javiorfo/go-liber/ident"
-  "github.com/javiorfo/go-liber/lang"
-  "github.com/javiorfo/go-liber/reftype"
-  "github.com/javiorfo/go-liber/resource"
+  "github.com/javiorfo/liber"
+  "github.com/javiorfo/liber/body"
+  "github.com/javiorfo/liber/ident"
+  "github.com/javiorfo/liber/lang"
+  "github.com/javiorfo/liber/reftype"
+  "github.com/javiorfo/liber/resource"
 )
 
 func main() {
@@ -74,7 +74,7 @@ func main() {
 ```
 
 ## Details
-- Every content is a **xhtml**. The entire xhml text or only the body could be added as content (the latter is more practical and secure because follows the standard). See [examples](https://github.com/javiorfo/go-liber/tree/master/examples))
+- Every content is a **xhtml**. The entire xhml text or only the body could be added as content (the latter is more practical and secure because follows the standard). See [examples](https://github.com/javiorfo/liber/tree/master/examples))
 - Content (Ex: Chapter) and ContentReference (Ex: Chapter#ref1) could be named with filename and id methods respectively. If none is set, Content will be sequential c{number}.xhtml (c01.xhtml, c02.xhtml...) and ContentReferences will be id{number} (id01, id02...) corresponding to the Content.
 
 

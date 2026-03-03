@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/javiorfo/go-liber/body"
-	"github.com/javiorfo/go-liber/internal/output/files"
-	"github.com/javiorfo/go-liber/reftype"
+	"github.com/javiorfo/liber/body"
+	"github.com/javiorfo/liber/internal/output/files"
+	"github.com/javiorfo/liber/reftype"
 	"github.com/javiorfo/nilo"
 )
 

@@ -1,4 +1,4 @@
-module github.com/javiorfo/go-liber
+module github.com/javiorfo/liber
 
 go 1.26.0
 

@@ -3,10 +3,10 @@ package epub
 import (
 	"time"
 
-	"github.com/javiorfo/go-liber/body"
-	"github.com/javiorfo/go-liber/ident"
-	"github.com/javiorfo/go-liber/lang"
-	"github.com/javiorfo/go-liber/resource"
+	"github.com/javiorfo/liber/body"
+	"github.com/javiorfo/liber/ident"
+	"github.com/javiorfo/liber/lang"
+	"github.com/javiorfo/liber/resource"
 	"github.com/javiorfo/nilo"
 )
 

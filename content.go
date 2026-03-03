@@ -1,9 +1,9 @@
 package liber
 
 import (
-	"github.com/javiorfo/go-liber/body"
-	"github.com/javiorfo/go-liber/internal/epub"
-	"github.com/javiorfo/go-liber/reftype"
+	"github.com/javiorfo/liber/body"
+	"github.com/javiorfo/liber/internal/epub"
+	"github.com/javiorfo/liber/reftype"
 	"github.com/javiorfo/nilo"
 )
 

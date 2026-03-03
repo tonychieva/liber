@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/javiorfo/go-liber/body"
-	"github.com/javiorfo/go-liber/internal/epub"
-	"github.com/javiorfo/go-liber/reftype"
+	"github.com/javiorfo/liber/body"
+	"github.com/javiorfo/liber/internal/epub"
+	"github.com/javiorfo/liber/reftype"
 )
 
 func TestContentBuilder(t *testing.T) {

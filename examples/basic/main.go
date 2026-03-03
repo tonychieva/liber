@@ -4,11 +4,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/javiorfo/go-liber"
-	"github.com/javiorfo/go-liber/body"
-	"github.com/javiorfo/go-liber/ident"
-	"github.com/javiorfo/go-liber/lang"
-	"github.com/javiorfo/go-liber/reftype"
+	"github.com/javiorfo/liber"
+	"github.com/javiorfo/liber/body"
+	"github.com/javiorfo/liber/ident"
+	"github.com/javiorfo/liber/lang"
+	"github.com/javiorfo/liber/reftype"
 )
 
 func main() {

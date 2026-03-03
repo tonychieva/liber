@@ -5,12 +5,12 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/javiorfo/go-liber/body"
-	"github.com/javiorfo/go-liber/ident"
-	"github.com/javiorfo/go-liber/internal/epub"
-	"github.com/javiorfo/go-liber/internal/output/files"
-	"github.com/javiorfo/go-liber/lang"
-	"github.com/javiorfo/go-liber/reftype"
+	"github.com/javiorfo/liber/body"
+	"github.com/javiorfo/liber/ident"
+	"github.com/javiorfo/liber/internal/epub"
+	"github.com/javiorfo/liber/internal/output/files"
+	"github.com/javiorfo/liber/lang"
+	"github.com/javiorfo/liber/reftype"
 )
 
 func TestCreator_Create(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/javiorfo/go-liber/body"
-	"github.com/javiorfo/go-liber/reftype"
+	"github.com/javiorfo/liber/body"
+	"github.com/javiorfo/liber/reftype"
 	"github.com/javiorfo/nilo"
 )
 

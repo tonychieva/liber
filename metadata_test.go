@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/javiorfo/go-liber/ident"
-	"github.com/javiorfo/go-liber/lang"
+	"github.com/javiorfo/liber/ident"
+	"github.com/javiorfo/liber/lang"
 )
 
 func TestMetadataBuilder(t *testing.T) {

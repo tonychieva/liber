@@ -3,9 +3,9 @@ package liber
 import (
 	"time"
 
-	"github.com/javiorfo/go-liber/ident"
-	"github.com/javiorfo/go-liber/internal/epub"
-	"github.com/javiorfo/go-liber/lang"
+	"github.com/javiorfo/liber/ident"
+	"github.com/javiorfo/liber/internal/epub"
+	"github.com/javiorfo/liber/lang"
 	"github.com/javiorfo/nilo"
 )
 

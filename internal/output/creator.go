@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/javiorfo/go-liber/body"
-	"github.com/javiorfo/go-liber/internal/epub"
-	"github.com/javiorfo/go-liber/internal/output/files"
-	"github.com/javiorfo/go-liber/internal/output/files/parser"
+	"github.com/javiorfo/liber/body"
+	"github.com/javiorfo/liber/internal/epub"
+	"github.com/javiorfo/liber/internal/output/files"
+	"github.com/javiorfo/liber/internal/output/files/parser"
 )
 
 // Creator handles the physical assembly of the EPUB file.

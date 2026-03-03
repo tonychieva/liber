@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/javiorfo/go-liber/internal/epub"
-	"github.com/javiorfo/go-liber/internal/output/files"
-	"github.com/javiorfo/go-liber/reftype"
-	"github.com/javiorfo/go-liber/resource"
+	"github.com/javiorfo/liber/internal/epub"
+	"github.com/javiorfo/liber/internal/output/files"
+	"github.com/javiorfo/liber/reftype"
+	"github.com/javiorfo/liber/resource"
 	"github.com/javiorfo/nilo"
 )
 
