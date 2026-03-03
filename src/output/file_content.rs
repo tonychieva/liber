@@ -308,7 +308,7 @@ pub fn toc_ncx(epub: &Epub<'_>) -> crate::Result<FileContent<String, String>> {
 ///
 /// # Returns
 ///
-/// Returns an `Option<String>`: `Some(String)` containing the generated XML for the
+/// Returns an `String`: `String` containing the generated XML for the
 /// navigation points, or `None` if the input slice is empty.
 fn contents_to_nav_point(
     play_order: &mut usize,
@@ -367,7 +367,7 @@ fn contents_to_nav_point(
 ///
 /// # Returns
 ///
-/// Returns an `Option<String>`: `Some(String)` containing the generated XML for the
+/// Returns an `String`: `String` containing the generated XML for the
 /// reference navigation points, or `None` if the input slice is empty.
 fn content_references_to_nav_point(
     current_xhtml: (usize, &str),
